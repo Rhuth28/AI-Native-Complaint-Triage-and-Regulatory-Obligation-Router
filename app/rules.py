@@ -22,7 +22,7 @@ class RuleResult:
 
 #Keyword rules definition
 RULES = [
-    ("REGULATOR_MENTION", ["fcac", "obsi", "ombudsman", "regulator"])
+    ("REGULATOR_MENTION", ["fcac", "obsi", "ombudsman", "regulator"]),
     ("FRAUD_UNAUTHORIZED", ["unauthorized", "fraud", "identity theft", "stolen", "scam"]),
     ("PRIVACY_BREACH", ["privacy", "data breach", "leak", "personal information", "pii"]),
     ("LEGAL_THREAT", ["lawsuit", "legal action", "sue", "lawyer", "court"]),
